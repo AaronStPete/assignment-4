@@ -6,14 +6,19 @@ body {
   margin: 0;
   min-height: 100%;
   font: 16px / 1 sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
 
 .top-section {
-
+  background-image: url(./images/space.png);
+  display: flex;
+  flex-direction: column;
+  flex-grow: 2;
 }
 
 .flex-top-section {
-
+display: flex;
+flex-grow: 2;
 }
 
 .arrow {
@@ -21,9 +26,22 @@ body {
 }
 
 .flex-examples {
-
+display: flex;
+flex-direction: row;
+flex-wrap: nowrap;
+flex-grow: 1;
+flex: 4;
 }
 
 .img-examples {
+display: flex;
+margin: .5em;
+flex-grow: 1;
+}
 
+
+@media (max-width:600px) {
+  * {
+    border: 10px solid red;
+  }
 }
