@@ -35,7 +35,7 @@ flex-grow: 2;
 
 .my-face > img {
   width: 100%;
-  border-radius: 5px;
+  border-radius: 10px;
 }
 
 .callout-space {
@@ -58,7 +58,7 @@ flex-grow: 2;
 }
 
 .callout > p {
-  padding-left: 1em;
+  padding-left: 2em;
 }
 
 .arrow {
@@ -79,6 +79,7 @@ margin-left: 3em;
   flex-wrap: nowrap;
   flex-grow: 1;
   background-color:rgba(0, 0, 0, 0.5);
+  padding: .5em;
 }
 
 .img-examples {
