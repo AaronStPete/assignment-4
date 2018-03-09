@@ -1,5 +1,6 @@
 html {
   height: 100%;
+
 }
 
 body {
@@ -7,38 +8,76 @@ body {
   min-height: 100%;
   font: 16px / 1 sans-serif;
   font-family: 'Roboto', sans-serif;
+  display: flex;
+  flex-direction: column;
 }
 
 .top-section {
   background-image: url(./images/space.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
   display: flex;
   flex-direction: column;
-  flex-grow: 2;
+  /* flex-grow: 2; */
 }
 
-.flex-top-section {
+.hero {
 display: flex;
 flex-grow: 2;
 }
 
-.arrow {
+.my-face > img {
+  width: 100%;
+  border-radius: 5px;
+}
 
+.my-face {
+  padding: 4em;
+}
+
+.callout-space {
+  display: flex;
+  flex-direction: column;
+}
+
+.callout {
+  background-color: rgba(255, 255, 255, 0.705);
+  border-radius: 5px;
+  padding: 1em 3em 1em 1em;
+  margin-top: 4em;
+}
+
+.arrow {
+width: 0%;
+height: 0%;
+border-top: solid transparent 10px;
+border-right: transparent solid 10px;
+border-bottom:  rgba(255, 255, 255, 0.705) solid 10px;
+border-left:  rgba(255, 255, 255, 0.705) solid 10px;
+transform: rotate(90deg);
+margin-left: 3em;
 }
 
 .flex-examples {
-display: flex;
-flex-direction: row;
-flex-wrap: nowrap;
-flex-grow: 1;
-flex: 4;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: nowrap;
+  flex-grow: 1;
+  background-color:rgba(0, 0, 0, 0.5);
 }
 
 .img-examples {
 display: flex;
 margin: .5em;
 flex-grow: 1;
+/* max-width: 22%; */
 }
 
+.img-responsive {
+  width: 100%;
+  height: 100%;
+}
 
 @media (max-width:600px) {
   * {
