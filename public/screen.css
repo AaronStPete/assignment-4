@@ -1,5 +1,6 @@
 html {
   height: 100%;
+  background-color: #031019;
 
 }
 
@@ -10,7 +11,6 @@ body {
   font-family: 'Roboto', sans-serif;
   display: flex;
   flex-direction: column;
-  background-color: #031019;
 }
 
 .top-section {
@@ -199,5 +199,13 @@ flex-grow: 1;
 @media (max-width:600px) {
   * {
     border: 10px solid red;
+  }
+}
+
+@media (min-width:1000px) {
+  
+  body {
+    width: 75%;
+    margin: auto;
   }
 }
