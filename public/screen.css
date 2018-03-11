@@ -194,7 +194,7 @@ flex-grow: 1;
   width: 7%;
 }
 
-@media (max-width:600px) {
+@media (max-width:800px) {
 
   .top-section {
     background-image: none;
