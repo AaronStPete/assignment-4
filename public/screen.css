@@ -19,13 +19,11 @@ body {
   background-size: 100%;
   display: flex;
   flex-direction: column;
-  /* flex-grow: 2; */
 }
 
 .hero {
 display: flex;
 flex-direction: row;
-
 flex-grow: 2;
 }
 
@@ -197,8 +195,39 @@ flex-grow: 1;
 }
 
 @media (max-width:600px) {
-  * {
-    border: 10px solid red;
+
+  .top-section {
+    background-image: none;
+  }
+
+  .hero {
+    flex-direction: column;
+  }
+
+  .my-face {
+    padding: 1em; 
+    width: 75%;
+  }
+
+  .callout-space {
+    margin-top: -.5em;
+    margin-bottom: .5em;
+  }
+
+  .callout {
+    margin-top: 0em;
+    margin-left: 5em;
+    text-align: center;
+  }
+
+  .arrow {
+    transform: none;
+    order: 1;
+    margin-left: 6em;
+  }
+
+  .callout {
+    order: 2;
   }
 }
 
