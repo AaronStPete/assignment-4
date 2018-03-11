@@ -156,10 +156,6 @@ flex-grow: 1;
   margin-left: 2em;
 }
 
-.footer-section {
-  color: white;
-}
-
 .btn-read-more {
   display: flex;
   background-color: #0081D5;
@@ -177,6 +173,27 @@ flex-grow: 1;
   justify-content: flex-end;
   margin-top: -3em;
   width: 98%;
+}
+
+.footer-section {
+  color: white;
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-section * {
+  text-align: center;
+  padding: 1em;
+}
+
+.footer-cta {
+  font-size: 2em;
+
+}
+
+.social-btn {
+  border-radius: 100%;
+  width: 7%;
 }
 
 @media (max-width:600px) {
